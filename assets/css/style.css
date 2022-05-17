@@ -72,7 +72,7 @@ body{
 }
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #007bff;
+    color: #faa5fd;
 }
 .info_box .buttons{
     height: 60px;
@@ -92,7 +92,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid #faa5fd;
     transition: all 0.3s ease;
 }
 .quiz_box{
@@ -121,7 +121,7 @@ body{
     font-weight: 600;
 }
 .quiz_box header .timer{
-    color: #004085;
+    color: #ab59ad;
     background: #cce5ff;
     border: 1px solid #b8daff;
     height: 45px;
@@ -254,7 +254,7 @@ footer button{
     color: #fff;
     border-radius: 5px;
     background: #faa5fd;
-    border: 1px solid #007bff;
+    border: 1px solid #faa5fd;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -333,4 +333,13 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #faa5fd;
+}
+
+@media screen and  (max-width:550px) {
+    .quiz_box{
+        width: auto;
+    }
+    .info_box{
+        width: auto;
+    }
 }
